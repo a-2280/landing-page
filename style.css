@@ -127,3 +127,30 @@ button {
     border: solid blue 4px;
     border-radius: 15px;
 }
+
+.content-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: auto;
+    background-color: #E5E7EB;
+}
+
+.content-three h2 {
+    max-width: 60vw;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.content-three h3 {
+    max-width: 60vw;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0 0 0 40vw;
+    margin-top: 0;
+}
