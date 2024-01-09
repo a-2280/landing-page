@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
 }
 
 .header {
@@ -80,4 +81,49 @@ button {
     font-weight: 500;
     padding: 8px 20px;
     border: 0;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    height: 50vh;
+    width: auto;
+}
+
+.content-two h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 45px;
+}
+
+.box-wraper {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container p {
+    max-width: 150px;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: solid blue 4px;
+    border-radius: 15px;
 }
