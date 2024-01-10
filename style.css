@@ -154,3 +154,45 @@ button {
     padding: 0 0 0 40vw;
     margin-top: 0;
 }
+
+.content-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px 0;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    margin-right: 125px;
+}
+
+.contact-left h3 {
+    padding-bottom: 0;
+    padding-top: 50px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.contact-left p {
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.contact-box button {
+    border: solid 2px #E5E7EB;
+}
